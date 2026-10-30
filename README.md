@@ -49,27 +49,47 @@ Architecture flow: Users (mobile app, kiosk) → API Gateway → Routing, Positi
 ## Technology Stack
 
 Mobile app: Flutter
+
 3D maps: Mapbox
+
 Kiosk UI: React.js
+
 Backend: Node.js (Express)
+
 Routing: A* algorithm
+
 Database: PostgreSQL (PostGIS)
+
 Cache: Redis
+
 Real-time updates: WebSockets
+
 Positioning: BLE beacons
+
 Voice: Google TTS
+
 Crowd estimation: OpenCV
+
 Admin dashboard: React.js
+
 Deployment: AWS
 
 
 ## Dependencies
 
+
 Station floor plans from Indian Railways (or a manual survey)
+
 Railway APIs (NTES / IRCTC) for train and platform data, which need approval, so the prototype uses sample data
+
 Hardware: BLE beacons, kiosks, Wi-Fi, optional CCTV feeds
+
 Station staff to update facility status
+
 Permission to install QR codes, beacons and kiosks
+
 Cloud hosting, TTS and push notification services
+
 DPDP Act 2023 privacy compliance
-Accessibility testing with real use
+
+Accessibility testing with real users
